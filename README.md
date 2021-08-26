@@ -132,10 +132,27 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 
 * **Some useful parameters when writing lists:**
 
-  * You should include ``topsep`` parameter so that space between paragraphs is equal with space between a paragraph and a list, like this: ``\begin{itemize}[..., topsep=0pt]``.
+  1. You should include ``topsep`` parameter so that space between paragraphs is equal with space between a paragraph and a list, like this: ``\begin{itemize}[..., topsep=0pt]``.
 
-  * In this thesis we have each paragraph indent on first line. So if you want your list (in particular the symbol) to flush with left margin then include ``leftmargin`` parameter like this: ``\begin{enumerate}[..., leftmargin=0.5cm]``.
+  2. In this thesis we have each paragraph indent on first line. So if you want your list (in particular the symbol) to flush with left margin then include ``leftmargin`` parameter like this: ``\begin{enumerate}[..., leftmargin=0.5cm]``.
 
-  * There is space separate between items (this space is bigger than the space between paragraphs), so:
-    * If you want NO SPACE in between items then include ``noitemsep`` parameter like this: ``\begin{itemize}[..., noitemsep]``.
-    * If you want space between items to be equal to space between paragraphs then include ``itemsep`` parameter like this ``\begin{itemize}[..., itemsep=0pt]``.
+  3. There is space between items (this space is bigger than the space between paragraphs), so:
+     * If you want NO SPACE in between items then include ``noitemsep`` parameter like this: ``\begin{itemize}[..., noitemsep]``.
+     * If you want space between items to be equal to space between paragraphs then include ``itemsep`` parameter like this ``\begin{itemize}[..., itemsep=0pt]``.
+
+  4. If you want your ``enumerate`` list to be different, for example, ``Step 1.`` instead of ``1.`` then you can use ``label`` parameter like this: ``\begin{itemize}[label=Step \arabic*., ...]``.
+
+* **Some useful tips when writing equations:**
+
+  1. Encapsulate your equation in ``gather`` environment to have your equation asigned a number. However, we don't know why when using this, there are so much space before and after the equation; so to reduce you just use ``\vspace`` command.
+  ```latex
+  %% remember that this <space> need to be negative to reduce the space
+  %% the ``*`` in the command just to make sure that if the equation on the first line of page then the space can still be reduced
+  \vspace*{<space>}
+  \begin{gather}
+    <equation> %% no need to encapsulate equation in $$$$
+  \end{gather}
+  \vspace{<space>}
+  ```
+
+  
