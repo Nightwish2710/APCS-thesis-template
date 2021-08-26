@@ -44,7 +44,9 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 
 **SOME (USEFUL) TIPS:**
 
-* We almost given up on writing our thesis on Overleaf because we have to write in English, Quốc Ngữ script (current Vietnamese), Nôm script (old Vietnamese), and Han script (Chinese), but to cite, reference, write math equation, etc. on Word is a total nightmare for us. So I tried my best to find a way to write Nôm Script on Overleaf and here's how:
+* **Write Nôm scipt:**
+
+  We almost given up on writing our thesis on Overleaf because we have to write in English, Quốc Ngữ script (current Vietnamese), Nôm script (old Vietnamese), and Han script (Chinese), but to cite, reference, write math equation, etc. on Word is a total nightmare for us. So I tried my best to find a way to write Nôm Script on Overleaf and here's how:
   
   Overleaf support this way of rendering Unicode: ``\char"<unicode>`` (1); therefore, to write Nôm script, you need to find its unicode. But the code (1) is not enough, you need to encapsulate it in a font environment, hence, you will need to import font as follows:
   
@@ -52,8 +54,11 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   2. Using this command to import it: ``\newfontfamily{<font-cmd-name>}{<actual-font-name>}[Path = ./fonts/, Extension = .ttf]`` <br>
   (I have import 2 fonts for this template so you can look at them and do as such.
 
-  To write Nôm script, you will need 3 fonts: ``nomnatonglight.ttf``, ``HanaMinA.ttf``, and ``HanaMinB.ttf``. Most of the time I use *nomnatong*, but in some occasions I need *HanaMin*. Declare command for these fonts then encapsulate the code (1), e.g., I declare *nomnatong* as ``\nnt`` then write ``\nnt{\char"<unicode>}`` (2). If you find that writing this code line effect other text then put curly brackets around it, e.g. ``{\nnt{\char"<unicode>}}``. You can also declare a quick command for (2) like me:
+  To write Nôm script, you will need 3 fonts: ``nomnatonglight.ttf``, ``HanaMinA.ttf``, and ``HanaMinB.ttf``. Most of the time I use *nomnatong*, but in some occasions I need *HanaMin*. Declare command for these fonts then encapsulate the code (1), e.g., I declare *nomnatong* as ``\nnt`` then write ``\nnt{\char"<unicode>}`` (2). If you find that writing this code line effect other text then put curly brackets around it, e.g. ``{\nnt{\char"<unicode>}}``. You can also declare a quick command for (2) like me: <br>
   ``\newcommand{\uc}[1]{{\nnt{\char"#1}}}`` <br>
   Then later you will only need to write ``\uc{<unicode>}``.
   
-* 
+* **Center images that have width bigger than margin:** <br>
+  Credit: https://tex.stackexchange.com/questions/16582/center-figure-that-is-wider-than-textwidth
+
+  I use ``\centerfloat`` command a lot because the margin of the thesis template is quite large, leaving not so much space for the text. So I do occasionally have some tables or images that is large than ``\textwidth`` so I would use this command to center my table or image.
