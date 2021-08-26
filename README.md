@@ -70,9 +70,9 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   ``\includegraphics[..., angle=90]{<image-path>}``
   
   But if you want your caption to turn along with your image then encapsulate your image in ``sidewaysfigure`` environment. For example: <br>
-  ``\begin{sidewaysfigure}`` <br>
-      ``\centerfloat`` <br>
-      ``\includegraphics[...]{<image-path>}`` <br>
-      ``\caption{...}`` <br>
-      ``\label{fig:...}`` <br>
-  ``\end{sidewaysfigure}`` <br>
+  ```\begin{sidewaysfigure} <br>
+      \centerfloat <br>
+      \includegraphics[...]{<image-path>} <br>
+      \caption{...} <br>
+      \label{fig:...} <br>
+  \end{sidewaysfigure}``` <br>
