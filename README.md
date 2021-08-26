@@ -18,10 +18,12 @@ This template does not contain everything that I use in my thesis as I only add 
 However, in this README, I will try my best explain thing that I find useful during the writing process. <br>
 Hopefully, you will find this template somewhat suitable to your need because I spent more than a day to gather everything :>
 
+=============================================================================================== <br>
 You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cover.drawio``. <br>
 ``APCS-thesis-template.pdf`` is only a preview for you to know how the template will render.
 
 **IMPORTANT: THIS TEMPLATE NEED TO BE RENDERED USING XeLaTeX.**
+=============================================================================================== <br>
 
 **SOME INSTRUCTIONS:**
 
@@ -37,5 +39,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 * ``thesis.tex`` is the main .tex file.
 
 * **TIP**: I give you the ``chapters`` folder to store individual chapter. However, I do recommend you dump everything in ``thesis.tex`` or writing all chapters in another .tex file then import in ``thesis.tex``. That way, the "File outline" panel to your left hand will render your entire thesis outline.
+
+=============================================================================================== <br>
 
 **SOME (USEFUL) TIPS:**
