@@ -18,12 +18,12 @@ This template does not contain everything that I use in my thesis as I only add 
 However, in this README, I will try my best explain thing that I find useful during the writing process. <br>
 Hopefully, you will find this template somewhat suitable to your need because I spent more than a day to gather everything :>
 
-=============================================================================================== <br>
+============================================================================================ <br>
 You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cover.drawio``. <br>
 ``APCS-thesis-template.pdf`` is only a preview for you to know how the template will render.
 
 **IMPORTANT: THIS TEMPLATE NEED TO BE RENDERED USING XeLaTeX.**
-=============================================================================================== <br>
+============================================================================================ <br>
 
 **SOME INSTRUCTIONS:**
 
@@ -40,6 +40,17 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 
 * **TIP**: I give you the ``chapters`` folder to store individual chapter. However, I do recommend you dump everything in ``thesis.tex`` or writing all chapters in another .tex file then import in ``thesis.tex``. That way, the "File outline" panel to your left hand will render your entire thesis outline.
 
-=============================================================================================== <br>
+============================================================================================ <br>
 
 **SOME (USEFUL) TIPS:**
+
+* We almost given up on writing our thesis on Overleaf because we have to write in English, Quốc Ngữ script (current Vietnamese), Nôm script (old Vietnamese), and Han script (Chinese), but to cite, reference, write math equation, etc. on Word is a total nightmare for us. So I tried my best to find a way to write Nôm Script on Overleaf and here's how:
+  
+  Overleaf support this way of rendering Unicode: ``\char"<unicode>`` (1); therefore, to write Nôm script, you need to find its unicode. But the code (1) is not enough, you need to encapsulate it in a font environment, hence, you will need to import font as follows:
+  
+  1. Put your true-type font into ``fonts`` folder.
+  2. Using this command to import it: ``\newfontfamily{<font-cmd-name>}{<actual-font-name>}[Path = ./fonts/, Extension = .ttf]``. (I have import 2 fonts for this template so you can look at them and do as such.
+
+  To write Nôm script, you will need 3 fonts: ``nomnatonglight.ttf``, ``HanaMinA.ttf``, and ``HanaMinB.ttf``. Most of the time I use *nomnatong*, but in some occasions I need *HanaMin*. Declare command for these fonts then encapsulate the code (1), e.g., I declare *nomnatong* as ``\nnt`` then write ``\nnt{\char"<unicode>}``. If you find that writing this code line effect other text then put curly brackets around it, e.g. ``{\nnt{\char"<unicode>}}``.
+  
+* 
