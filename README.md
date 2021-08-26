@@ -63,8 +63,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 
   I use ``\centerfloat`` command a lot because the margin of the thesis template is quite large, leaving not so much space for the text. So I do occasionally have some tables or images that are large than ``\textwidth`` so I would use this command to center my tables and images.
   
-  
-* **Include images sideway:**
+* **Include images and table sideway:**
 
   If you want your image turn 90 degree while its caption still remain horizontal then you just need to use the ``angle`` variable: <br>
   ``\includegraphics[..., angle=90]{<image-path>}``
@@ -78,3 +77,32 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
       \label{fig:...}
   \end{sidewaysfigure}
   ```
+  
+  This is the same for table but table will be encapsulated in ``sidewaystable`` instead.
+  
+* **Some useful parameters when include images:**
+
+  1. ``trim = {<left> <lower> <right> <upper>}``: to trim border around image.
+  2. ``height`` and ``width``: to adjust image size (else the imported image will have original size). <br>
+     Remember to include ``\textheight`` or ``\textwidth`` after the number, e.g., ``width=2.6in\textwidth``.
+  3. There is also a ``keepaspectratio`` parameter to use when you use both ``height`` and ``width``.
+
+* **Some useful tips when writing tables:**
+
+  1. ``thead`` command: this command is very useful if you want to write multiple lines in a table cell or you want a cell to have different alignment. For example:
+     ```
+     \begin{table}[!h]
+       \centerfloat
+       \begin{tabular}{|c|}
+          \hline
+          \thead[l]{Hello\\world} \\
+          \hline
+          Hello world \\
+          \hline
+       \end{tabular}
+       \caption{...}
+       \label{tab:...}
+     \end{table}
+     ```
+     
+     The 1st row will have the word *Hello world* written in 2 lines AND left align (by indicate in ``\thead[<align-mode>]{<text>}`` where ``<align-mode>`` is ``l`` for left). The 2nd row will have *Hello world* written on the same line and center aligned as indicate in ``\begin{tabular}{|c|}``.
