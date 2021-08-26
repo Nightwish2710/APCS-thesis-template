@@ -61,4 +61,18 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 * **Center images that have width bigger than margin:** <br>
   Credit: https://tex.stackexchange.com/questions/16582/center-figure-that-is-wider-than-textwidth
 
-  I use ``\centerfloat`` command a lot because the margin of the thesis template is quite large, leaving not so much space for the text. So I do occasionally have some tables or images that is large than ``\textwidth`` so I would use this command to center my table or image.
+  I use ``\centerfloat`` command a lot because the margin of the thesis template is quite large, leaving not so much space for the text. So I do occasionally have some tables or images that are large than ``\textwidth`` so I would use this command to center my tables and images.
+  
+  
+* **Include images sideway:**
+
+  If you want your image turn 90 degree while its caption still remain horizontal then you just need to use the ``angle`` variable: <br>
+  ``\includegraphics[..., angle=90]{<image-path>}``
+  
+  But if you want your caption to turn along with your image then encapsulate your image in ``sidewaysfigure`` environment. For example: <br>
+  ``\begin{sidewaysfigure}`` <br>
+      ``\centerfloat`` <br>
+      ``\includegraphics[...]{<image-path>}`` <br>
+      ``\caption{...}`` <br>
+      ``\label{fig:...}`` <br>
+  ``\end{sidewaysfigure}`` <br>
