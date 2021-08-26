@@ -94,11 +94,11 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      \begin{table}[!h]
        \centerfloat
        \begin{tabular}{|c|}
-          \hline
-          \thead[l]{Hello\\world} \\
-          \hline
-          Hello world \\
-          \hline
+         \hline
+         \thead[l]{Hello\\world} \\
+         \hline
+         Hello world \\
+         \hline
        \end{tabular}
        \caption{...}
        \label{tab:...}
@@ -106,3 +106,8 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      ```
      
      The 1st row will have the word *Hello world* written in 2 lines AND left align (by indicate in ``\thead[<align-mode>]{<text>}`` where ``<align-mode>`` is ``l`` for left). The 2nd row will have *Hello world* written on the same line and center aligned as indicate in ``\begin{tabular}{|c|}``.
+     
+  2. Have table borders be thicker. Import package ``tabu`` then replace ``\begin{tabular}`` and ``\end{tabular}`` with ``\begin{tabu}`` and ``\end{tabu}``.
+
+     * For horizontal border to be thicker, call command ``\tabucline[<thickness>]{-}`` instead of ``\hline``.
+     * For vertical border to be thicker, write like this example ``\begin{tabu}{|[<thickness>]c|c|l|[<thickness>]l|}``. The ``[<thickness>]`` will affect the ``|`` before it.
