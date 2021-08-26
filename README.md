@@ -1,6 +1,6 @@
 # APCS-thesis-template
 
-This is our Overleaf thesis template for our university program APCS.
+This is our Overleaf thesis template for our university program APCS (VNU-HCM).
 
 We are:
 * Lê Phạm Ngọc Yến:
@@ -17,3 +17,5 @@ Both of us promise (to ourselves lol) that if our final score for our thesis exc
 This template does not contain everything that I use in my thesis as I only add more when we need it.
 However, in this README, I will try my best explain thing that I find useful during the writing process.
 Hopefully, you will find this template somewhat suitable to your need because I spent more than a day to gather everything :>
+
+You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cover.drawio``. ``APCS-thesis-template.pdf`` is only a preview for you to know how the template will render.
