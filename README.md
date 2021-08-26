@@ -77,4 +77,4 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
       \caption{...}
       \label{fig:...}
   \end{sidewaysfigure}
-  ``` <br>
+  ```
