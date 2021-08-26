@@ -8,7 +8,7 @@ We are:
   * Email: lpnyen@apcs.vn
 * Trần Thị Anh Thư:
   * Student ID: 1751036
-  * Email: ttathu@apcs.vn
+  * Email: ttathu@apcs.vn \\
 Our thesis topic: INTEGRATING NÔM LANGUAGE MODEL INTO NÔM OPTICAL CHARACTER RECOGNITION.
 
 Both of us promise (to ourselves lol) that if our final score for our thesis exceed a threshold then we will make this template public.
