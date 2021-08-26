@@ -166,7 +166,6 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   2. If your equation is too long and you want to split it then just use ``split`` environment. For example:
 
      ```latex
-     \vspace*{<space>}
      \begin{gather}
      \begin{split}
          \text{pLog}(c_{i, j}) = &\text{ }w_0 \\[-0.25cm]
@@ -174,7 +173,6 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
          &+ w_2  \cdot \log{\left(P_{\text{MLM}}(c_{i,j} | \forall c \in \boldsymbol{s}_t \text{ and } c \neq c_{i,j})\right)}
      \end{split}
      \end{gather}
-     \vspace{<space>}
      ```
      
      The symbole ``&`` is an idicator of where to align, ``\\`` splits the equation, and ``[-0.25cm]`` is to reduce the line space in that particular equation line.
@@ -183,9 +181,9 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 
      ```latex
      \begin{gather}
-         w, \textit{\textbf{w}}, \boldsymbol{w}
+         w, \textbf{\textit{w}}, \boldsymbol{w}
      \end{gather}
      ```
 
 **THE END.**
-*(I only remmeber this many so I will update if I remember something)*
+*(I only remmeber this many so I will update if I remember something else)*
