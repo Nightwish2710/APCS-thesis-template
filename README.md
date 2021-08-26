@@ -55,9 +55,9 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   1. Put your true-type font into ``fonts`` folder.
   2. Using this command to import it:
   
-  ```latex
-  \newfontfamily{<font-cmd-name>}{<actual-font-name>}[Path = ./fonts/, Extension = .ttf]
-  ```
+     ```latex
+     \newfontfamily{<font-cmd-name>}{<actual-font-name>}[Path = ./fonts/, Extension = .ttf]
+     ```
   
   (I have import 2 fonts for this template so you can look at them and do as such.
 
@@ -94,10 +94,10 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   
   ```latex
   \begin{figure}
-    ...
+      ...
   \end{figure}
   \begin{figure}\ContinuedFloat
-    ...
+      ...
   \end{figure}
   ```
   
@@ -116,16 +116,16 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   
      ```latex
      \begin{table}[!h]
-       \centerfloat
-       \begin{tabular}{|c|}
-         \hline
-         \thead[l]{Hello\\world} \\
-         \hline
-         Hello world \\
-         \hline
-       \end{tabular}
-       \caption{...}
-       \label{tab:...}
+         \centerfloat
+         \begin{tabular}{|c|}
+             \hline
+             \thead[l]{Hello\\world} \\
+             \hline
+             Hello world \\
+             \hline
+         \end{tabular}
+         \caption{...}
+         \label{tab:...}
      \end{table}
      ```
      
@@ -154,14 +154,26 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 
   1. Encapsulate your equation in ``gather`` environment to have your equation asigned a number. However, we don't know why when using this, there are so much space before and after the equation; so to reduce you just use ``\vspace`` command.
   
-  ```latex
-  %% remember that this <space> need to be negative to reduce the space
-  %% the ``*`` in the command just to make sure that if the equation on the first line of page then the space can still be reduced
-  \vspace*{<space>}
-  \begin{gather}
-    <equation> %% no need to encapsulate equation in $$$$
-  \end{gather}
-  \vspace{<space>}
-  ```
+     ```latex
+     %% remember that this <space> need to be negative to reduce the space
+     %% the ``*`` in the command just to make sure that if the equation on the first line of page then the space can still be reduced
+     \vspace*{<space>}
+     \begin{gather}
+         <equation> %% no need to encapsulate equation in $$$$
+     \end{gather}
+     \vspace{<space>}
+     ```
+  2. If your equation is too long and you want to split it then just use ``split`` environment like this:
 
+     ```latex
+     \vspace*{<space>}
+     \begin{gather}
+     \begin{split}
+         \text{pLog}(c_{i, j}) = &\text{ }w_0 \\[-0.25cm]
+         &+ w_1 \cdot \log{\left(P_{\text{OCR}}(c_{i,j})\right)} \\[-0.25cm]
+         &+ w_2  \cdot \log{\left(P_{\text{MLM}}(c_{i,j} | \forall c \in \boldsymbol{s}_t \text{ and } c \neq c_{i,j})\right)}
+     \end{split}
+     \end{gather}
+     \vspace{<space>}
+     ```
   
