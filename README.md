@@ -142,7 +142,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 
   1. You should include ``topsep`` parameter so that space between paragraphs is equal with space between a paragraph and a list, like this: ``\begin{itemize}[..., topsep=0pt]``.
 
-  2. In this thesis we have each paragraph indent on first line. So if you want your list (in particular the symbol) to flush with left margin then include ``leftmargin`` parameter like this: ``\begin{enumerate}[..., leftmargin=0.5cm]``.
+  2. In this thesis, we have each paragraph indent on first line. So if you want your list (in particular the symbol) to flush with left margin then include ``leftmargin`` parameter like this: ``\begin{enumerate}[..., leftmargin=0.5cm]``.
 
   3. There is space between items (this space is bigger than the space between paragraphs), so:
      * If you want NO SPACE in between items then include ``noitemsep`` parameter like this: ``\begin{itemize}[..., noitemsep]``.
@@ -163,7 +163,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      \end{gather}
      \vspace{<space>}
      ```
-  2. If your equation is too long and you want to split it then just use ``split`` environment like this:
+  2. If your equation is too long and you want to split it then just use ``split`` environment. For example:
 
      ```latex
      \vspace*{<space>}
@@ -176,4 +176,16 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      \end{gather}
      \vspace{<space>}
      ```
-  
+     
+     The symbole ``&`` is an idicator of where to align, ``\\`` splits the equation, and ``[-0.25cm]`` is to reduce the line space in that particular equation line.
+     
+  3. In this thesis, we use ``amsmath``, ``amsfonts``, and ``amssymb`` package but the overall thesis will be written in Times New Roman. So when you use ``\text``, ``textit`` or ``textbf``  command in an equation, it will be rendered in TNR font. So if you want to bold your equation in ``amsfonts`` then you must use ``\boldsymbol`` command instead. Try to render this:
+
+     ```latex
+     \begin{gather}
+         w, \textit{\textbf{w}}, \boldsymbol{w}
+     \end{gather}
+     ```
+
+**THE END.**
+*(I only remmeber this many so I will update if I remember something)*
