@@ -31,7 +31,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 * ``cover-templates`` folder is where we store cover templates like **main cover**, **title page**, etc. <br>
   However, we also put ``comments-of-thesis-advisor.tex`` and ``comments-of-thesis-reviewer.tex`` in there because we only need theses 2 files after thesis defense. But you can to move them to ``preliminaries`` folder if you want, just remember to change these 2 code lines:
 
-  ```
+  ```latex
   \input{cover-templates/comments-of-thesis-advisor}
   \input{cover-templates/comments-of-thesis-reviewer}
   ```
@@ -53,7 +53,10 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   Overleaf support this way of rendering Unicode: ``\char"<unicode>`` (1); therefore, to write Nôm script, you need to find its unicode. But the code (1) is not enough, you need to encapsulate it in a font environment, hence, you will need to import font as follows:
   
   1. Put your true-type font into ``fonts`` folder.
-  2. Using this command to import it: ``\newfontfamily{<font-cmd-name>}{<actual-font-name>}[Path = ./fonts/, Extension = .ttf]`` <br>
+  2. Using this command to import it:
+  ```latex
+  \newfontfamily{<font-cmd-name>}{<actual-font-name>}[Path = ./fonts/, Extension = .ttf]
+  ```
   (I have import 2 fonts for this template so you can look at them and do as such.
 
   To write Nôm script, you will need 3 fonts: ``nomnatonglight.ttf``, ``HanaMinA.ttf``, and ``HanaMinB.ttf``. Most of the time we use *nomnatong*, but in some occasions we need *HanaMin*. Declare command for these fonts then encapsulate the code (1), e.g., we declare *nomnatong* as ``\nnt`` then write ``\nnt{\char"<unicode>}`` (2). If you find that writing this code line effect other text then put curly brackets around it, e.g. ``{\nnt{\char"<unicode>}}``. You can also declare a quick command for (2) like us: <br>
@@ -71,7 +74,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   ``\includegraphics[..., angle=90]{<image-path>}``
   
   But if you want your caption to turn along with your image then encapsulate your image in ``sidewaysfigure`` environment like so <br>
-  ```
+  ```latex
   \begin{sidewaysfigure}
       \centerfloat
       \includegraphics[...]{<image-path>}
@@ -85,7 +88,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 * **Include multiple subimages that span across multiple pages:**
 
   You can do this by using ``\ContinuedFloat`` command as follows: <br>
-  ```
+  ```latex
   \begin{figure}
     ...
   \end{figure}
@@ -106,7 +109,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 * **Some useful tips when writing tables:**
 
   1. ``thead`` command: this command is very useful if you want to write multiple lines in a table cell or you want a cell to have different alignment. For example:
-     ```
+     ```latex
      \begin{table}[!h]
        \centerfloat
        \begin{tabular}{|c|}
