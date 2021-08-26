@@ -18,9 +18,12 @@ This template does not contain everything that I use in my thesis as I only add 
 However, in this README, I will try my best explain thing that I find useful during the writing process. <br>
 Hopefully, you will find this template somewhat suitable to your need because I spent more than a day to gather everything :>
 
-You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cover.drawio``. ``APCS-thesis-template.pdf`` is only a preview for you to know how the template will render.
+You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cover.drawio``. <br>
+``APCS-thesis-template.pdf`` is only a preview for you to know how the template will render.
 
-SOME INSTRUCTIONS:
+**IMPORTANT: THIS TEMPLATE NEED TO BE RENDERED USING XeLaTeX.**
+
+**SOME INSTRUCTIONS:**
 
 * ``preliminaries`` folder is where I store front matter .tex file like **thesis proposal**, **acknowledgement**, etc.
 * ``cover-templates`` folder is where I store cover templates like **main cover**, **title page**, etc. <br>
@@ -29,6 +32,10 @@ SOME INSTRUCTIONS:
   ``\input{cover-templates/comments-of-thesis-advisor}`` <br>
   ``\input{cover-templates/comments-of-thesis-reviewer}``
 
-* ``configurations.tex`` is the file that I put most of my packages and commands. I separate the package and the command according to (self-defined) categories.
+* ``figures``, ``fonts`` and ``ref`` are as name suggest.
+* ``configurations.tex`` is the file that I put most of my packages and commands. I separate packages and commands according to (self-defined) categories like **pape setup*, **font setup**, etc. so that I can track thing easier but you can throw them everywhere I guess. What floats your boat.
+* ``thesis.tex`` is the main .tex file.
 
-SOME USEFUL TIPS:
+* **TIP**: I give you the ``chapters`` folder to store individual chapter. However, I do recommend you dump everything in ``thesis.tex`` or writing all chapters in another .tex file then import in ``thesis.tex``. That way, the "File outline" panel to your left hand will render your entire thesis outline.
+
+**SOME (USEFUL) TIPS:**
