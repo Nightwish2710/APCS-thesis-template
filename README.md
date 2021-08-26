@@ -23,10 +23,10 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 SOME INSTRUCTIONS:
 
 * ``preliminaries`` folder is where I store front matter .tex file like **thesis proposal**, **acknowledgement**, etc.
-* ``cover-templates`` folder is where I store cover templates like **main cover**, **title page**, etc. However, I also put ``comments-of-thesis-advisor.tex`` and ``comments-of-thesis-reviewer.tex`` in there because I we don't need theses 2 files after thesis defense. But you can to move them to ``preliminaries`` folder if you want, just remember to change these 2 code lines:
+* ``cover-templates`` folder is where I store cover templates like **main cover**, **title page**, etc. However, I also put ``comments-of-thesis-advisor.tex`` and ``comments-of-thesis-reviewer.tex`` in there because I we only need theses 2 files after thesis defense. But you can to move them to ``preliminaries`` folder if you want, just remember to change these 2 code lines:
 
- ``\input{cover-templates/comments-of-thesis-advisor} <br>
-   \input{cover-templates/comments-of-thesis-reviewer}``
+ ``\input{cover-templates/comments-of-thesis-advisor}`` <br>
+ ``\input{cover-templates/comments-of-thesis-reviewer}``
 
 * ``configurations.tex`` is the file that I put most of my packages and commands. I separate the package and the command according to (self-defined) categories.
 
