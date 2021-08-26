@@ -54,9 +54,11 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   
   1. Put your true-type font into ``fonts`` folder.
   2. Using this command to import it:
+  
   ```latex
   \newfontfamily{<font-cmd-name>}{<actual-font-name>}[Path = ./fonts/, Extension = .ttf]
   ```
+  
   (I have import 2 fonts for this template so you can look at them and do as such.
 
   To write Nôm script, you will need 3 fonts: ``nomnatonglight.ttf``, ``HanaMinA.ttf``, and ``HanaMinB.ttf``. Most of the time we use *nomnatong*, but in some occasions we need *HanaMin*. Declare command for these fonts then encapsulate the code (1), e.g., we declare *nomnatong* as ``\nnt`` then write ``\nnt{\char"<unicode>}`` (2). If you find that writing this code line effect other text then put curly brackets around it, e.g. ``{\nnt{\char"<unicode>}}``. You can also declare a quick command for (2) like us: <br>
@@ -73,7 +75,8 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   If you want your image turn 90 degree while its caption still remain horizontal then you just need to use the ``angle`` parameter: <br>
   ``\includegraphics[..., angle=90]{<image-path>}``
   
-  But if you want your caption to turn along with your image then encapsulate your image in ``sidewaysfigure`` environment like so <br>
+  But if you want your caption to turn along with your image then encapsulate your image in ``sidewaysfigure`` environment like so
+  
   ```latex
   \begin{sidewaysfigure}
       \centerfloat
@@ -87,7 +90,8 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   
 * **Include multiple subimages that span across multiple pages:**
 
-  You can do this by using ``\ContinuedFloat`` command as follows: <br>
+  You can do this by using ``\ContinuedFloat`` command as follows:
+  
   ```latex
   \begin{figure}
     ...
@@ -109,20 +113,21 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 * **Some useful tips when writing tables:**
 
   1. ``thead`` command: this command is very useful if you want to write multiple lines in a table cell or you want a cell to have different alignment. For example:
-     ```latex
-     \begin{table}[!h]
-       \centerfloat
-       \begin{tabular}{|c|}
-         \hline
-         \thead[l]{Hello\\world} \\
-         \hline
-         Hello world \\
-         \hline
-       \end{tabular}
-       \caption{...}
-       \label{tab:...}
-     \end{table}
-     ```
+  
+    ```latex
+    \begin{table}[!h]
+      \centerfloat
+      \begin{tabular}{|c|}
+        \hline
+        \thead[l]{Hello\\world} \\
+        \hline
+        Hello world \\
+        \hline
+      \end{tabular}
+      \caption{...}
+      \label{tab:...}
+    \end{table}
+    ```
      
      The 1st row will have the word *Hello world* written in 2 lines AND left align (by indicate in ``\thead[<align-mode>]{<text>}`` where ``<align-mode>`` is ``l`` for left). The 2nd row will have *Hello world* written on the same line and center aligned as indicate in ``\begin{tabular}{|c|}``.
      
@@ -148,6 +153,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 * **Some useful tips when writing equations:**
 
   1. Encapsulate your equation in ``gather`` environment to have your equation asigned a number. However, we don't know why when using this, there are so much space before and after the equation; so to reduce you just use ``\vspace`` command.
+  
   ```latex
   %% remember that this <space> need to be negative to reduce the space
   %% the ``*`` in the command just to make sure that if the equation on the first line of page then the space can still be reduced
