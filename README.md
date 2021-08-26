@@ -50,11 +50,11 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   
   1. Put your true-type font into ``fonts`` folder.
   2. Using this command to import it:
-  > ``\newfontfamily{<font-cmd-name>}{<actual-font-name>}[Path = ./fonts/, Extension = .ttf]`` <br>
+     > ``\newfontfamily{<font-cmd-name>}{<actual-font-name>}[Path = ./fonts/, Extension = .ttf]`` <br>
   (I have import 2 fonts for this template so you can look at them and do as such.
 
   To write Nôm script, you will need 3 fonts: ``nomnatonglight.ttf``, ``HanaMinA.ttf``, and ``HanaMinB.ttf``. Most of the time I use *nomnatong*, but in some occasions I need *HanaMin*. Declare command for these fonts then encapsulate the code (1), e.g., I declare *nomnatong* as ``\nnt`` then write ``\nnt{\char"<unicode>}`` (2). If you find that writing this code line effect other text then put curly brackets around it, e.g. ``{\nnt{\char"<unicode>}}``. You can also declare a quick command for (2) like me:
-  > ``\newcommand{\uc}[1]{{\nnt{\char"#1}}}`` <br>
+     > ``\newcommand{\uc}[1]{{\nnt{\char"#1}}}`` <br>
   Then later you will only need to write ``\uc{<unicode>}``.
   
 * 
