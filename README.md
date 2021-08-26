@@ -38,7 +38,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 * ``configurations.tex`` is the file that I put most of my packages and commands. I separate packages and commands according to (self-defined) categories like **pape setup*, **font setup**, etc. so that I can track thing easier but you can throw them everywhere I guess. What floats your boat.
 * ``thesis.tex`` is the main .tex file.
 
-* **TIP**: I give you the ``chapters`` folder to store individual chapter. However, I do recommend you dump everything in ``thesis.tex`` or writing all chapters in another .tex file then import in ``thesis.tex``. That way, the "File outline" panel to your left hand will render your entire thesis outline.
+* **TIP:** I give you the ``chapters`` folder to store individual chapter. However, I do recommend you dump everything in ``thesis.tex`` or writing all chapters in another .tex file then import in ``thesis.tex``. That way, the "File outline" panel to your left hand will render your entire thesis outline.
 
 ============================================================================================ <br>
 
@@ -80,6 +80,20 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   
   This is the same for table but table will be encapsulated in ``sidewaystable`` instead.
   
+* **Include multiple subimages that span across multiple pages:**
+
+  You can do this by using ``\ContinuedFloat`` command as follows: <br>
+  ```
+  \begin{figure}
+    ...
+  \end{figure}
+  \begin{figure}\ContinuedFloat
+    ...
+  \end{figure}
+  ```
+  
+  **NOTE: If you search for this command then you will see that people say that you need ``subfig`` package but I actually don't import the package and can still use the command. One note that when I import ``subfig`` package, my code cannot render for some unknown reasons.**
+  
 * **Some useful parameters when include images:**
 
   1. ``trim = {<left> <lower> <right> <upper>}``: to trim border around image.
@@ -111,3 +125,9 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 
      * For horizontal border to be thicker, call command ``\tabucline[<thickness>]{-}`` instead of ``\hline``.
      * For vertical border to be thicker, write like this example ``\begin{tabu}{|[<thickness>]c|c|l|[<thickness>]l|}``. The ``[<thickness>]`` will affect the ``|`` before it.
+
+  3. Using this website https://tablesgenerator.com/ to write table faster.
+
+* **Some useful parameters when writing lists:**
+
+  * In
