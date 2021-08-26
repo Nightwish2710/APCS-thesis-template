@@ -156,7 +156,8 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   
      ```latex
      %% remember that this <space> need to be negative to reduce the space
-     %% the ``*`` in the command just to make sure that if the equation on the first line of page then the space can still be reduced
+     %% the ``*`` in the command just to make sure that if the equation on the first line of page
+     %% then the space can still be reduced
      \vspace*{<space>}
      \begin{gather}
          <equation> %% no need to encapsulate equation in $$$$
@@ -177,7 +178,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      
      The symbole ``&`` is an idicator of where to align, ``\\`` splits the equation, and ``[-0.25cm]`` is to reduce the line space in that particular equation line.
      
-  3. In this thesis, we use ``amsmath``, ``amsfonts``, and ``amssymb`` package but the overall thesis will be written in Times New Roman. So when you use ``\text``, ``textit`` or ``textbf``  command in an equation, it will be rendered in TNR font. So if you want to bold your equation in ``amsfonts`` then you must use ``\boldsymbol`` command instead. Try to render this:
+  3. In this thesis, we use ``amsmath``, ``amsfonts``, and ``amssymb`` package but the overall thesis will be written in Times New Roman. So when you use ``\text``, ``\textit`` or ``\textbf``  command in an equation, it will be rendered in TNR font. So if you want to bold your equation in ``amsfonts`` then you must use ``\boldsymbol`` command instead. Try to render this:
 
      ```latex
      \begin{gather}
@@ -185,5 +186,5 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      \end{gather}
      ```
 
-**THE END.**
+**THE END.** <br>
 *(I only remmeber this many so I will update if I remember something else)*
