@@ -15,7 +15,7 @@ Our thesis topic: INTEGRATING NÔM LANGUAGE MODEL INTO NÔM OPTICAL CHARACTER RE
 Both of us promise (to ourselves lol) that if our final score for our thesis exceed a threshold then we will make this template public.
 
 This template does not contain everything that we use in our thesis as we only add more when we need it. <br>
-However, in this README, we will try my best explain thing that we find useful during the writing process. <br>
+However, in this README, we will try our best explain thing that we find useful during the writing process. <br>
 Hopefully, you will find this template somewhat suitable to your need because we (well, only me, Ngọc Yến :>) spent more than a day to gather everything.
 
 ============================================================================ <br>
