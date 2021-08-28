@@ -19,7 +19,7 @@ However, in this README, we will try our best explain thing that we find useful 
 Hopefully, you will find this template somewhat suitable to your need because we (well, only me, Ngọc Yến :>) spent more than a day to gather everything.
 
 ============================================================================ <br>
-You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cover.drawio``. <br>
+You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cover.drawio`` in ``download-this`` folder. <br>
 ``APCS-thesis-template.pdf`` is only a preview for you to know how the template will render.
 
 **IMPORTANT: THIS TEMPLATE NEED TO BE RENDERED USING XeLaTeX.**
