@@ -52,7 +52,13 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 
   2. When using images from other papers, if you can redraw them, REDRAW THEM (then cite them). You can use a free application called DrawIO (https://app.diagrams.net/) that in my opinion is very useful (although you need to work with it a little bit to get use to it). After finish drawing your image, you should export in either PNG (**CHANGE THE *Zoom* PARAMETER TO *300%***) or PDF. These 2 types can be imported into Overleaf.
 
-     This application also allow you to write math (which will be rendered in amsfonts). To do this, you turn on: **Extras > Mathematical Typesetting** (you need to do this for pages that have math equations). If you write short symbols then you only need to encapsulate it between `` ` ``; but if you want to write big equations then encapsulate it between ``$$``.
+     This application also allow you to write math (which will be rendered in amsfonts). To do this, you turn on: **Extras > Mathematical Typesetting** (you need to do this for pages that have math equations because it doesn't have universal effect). If you write short symbols then you only need to encapsulate it between `` ` ``; but if you want to write big equations then encapsulate it between ``$$``.
+     
+     You can also use different fonts other than the default fonts provided by the application. To import new font:
+     
+       1. Create a text box.
+       2. Click on the text box, a panel on the righthand-side will appear, then choose the ``Text`` tab and you can see there is a font option.
+       3. Click on the font option, choose ``custom``, choose ``Google Fonts``, then type the correct font name. For example, I want to use TNR, then type Times New Roman in the box. You see the correct font's name in Microsoft Word.
 
 * **Write Nôm script:**
 
@@ -205,7 +211,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      
      The symbole ``&`` is an idicator of where to align, ``\\`` splits the equation, and ``[-0.25cm]`` is to reduce the line space in that particular equation line.
      
-  3. In this thesis, we use ``amsmath``, ``amsfonts``, and ``amssymb`` package but the overall thesis will be written in Times New Roman. So when you use ``\text``, ``\textit`` or ``\textbf``  command in an equation, it will be rendered in TNR font. So if you want to bold your equation in ``amsfonts`` then you must use ``\boldsymbol`` command instead. for example:
+  3. In this thesis, we use ``amsmath``, ``amsfonts``, and ``amssymb`` package but the overall thesis will be written in Times New Roman. So when you use ``\text``, ``\textit`` or ``\textbf``  command in an equation, it will be rendered in TNR font. So if you want to bold your equation in ``amsfonts`` then you must use ``\boldsymbol`` command instead. For example:
 
      ```latex
      \begin{gather}
