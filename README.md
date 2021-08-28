@@ -63,6 +63,10 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 
   To write Nôm script, you will need 3 fonts: ``nomnatonglight.ttf``, ``HanaMinA.ttf``, and ``HanaMinB.ttf``. Most of the time we use *nomnatong*, but in some occasions we need *HanaMin*. Declare command for these fonts then encapsulate the code (1), e.g., we declare *nomnatong* as ``\nnt`` then write ``\nnt{\char"<unicode>}`` (2). If you find that writing this code line effect other text then put curly brackets around it, e.g. ``{\nnt{\char"<unicode>}}``. You can also declare a quick command for (2) like us: ``\newcommand{\uc}[1]{{\nnt{\char"#1}}}``. Then later you will only need to write ``\uc{<unicode>}``.
   
+* **URL font:**
+
+  So I change the URL font to Times New Roman using this code line : ``\urlstyle{rm}``. So if you want to have URL font to be default (i.e., Consolas font) then you can remove this line.
+  
 * **Center images that have width bigger than margin:** <br>
   Credit: https://tex.stackexchange.com/questions/16582/center-figure-that-is-wider-than-textwidth
 
