@@ -204,6 +204,28 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
          w, \textbf{\textit{w}}, \boldsymbol{w}
      \end{gather}
      ```
+     
+     <img src="images/mathequation-1.PNG" width="100px">
+ 
+  4. When writing fraction, you should use ``\dfrac`` instead of ``\frac``. For example:
+ 
+     ```latex
+     \begin{gather}
+         \frac{\frac{1}{2}}{\frac{3}{4}} = \frac{\dfrac{1}{2}}{\dfrac{3}{4}}
+     \end{gather}
+     ```
+     
+     <img src="images/mathequation-2.PNG" width="200px">
+     
+  5. When writing ``\log``, ``\max``, ``\min``, ``\sum``, etc. you should add ``limits`` behind them. For example:
+ 
+     ```latex
+     \begin{gather}
+         \dfrac{\sum_{i=1}^n_{a^i}}{\sum_{i=1}^n{{a^2}^i}} = \dfrac{\sum\limits_{i=1}^n{a^i}}{\sum\limits_{i=1}^n{{a^2}^i}}
+     \end{gather}
+     ```
+     
+     <img src="images/mathequation-3.PNG" width="300px">
 
 **THE END.** <br>
 *(I only remmeber this many so I will update if I remember something else)*
