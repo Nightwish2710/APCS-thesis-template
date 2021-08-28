@@ -221,7 +221,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
  
      ```latex
      \begin{gather}
-         \dfrac{\sum_{i=1}^n_{a^i}}{\sum_{i=1}^n{{a^2}^i}} = \dfrac{\sum\limits_{i=1}^n{a^i}}{\sum\limits_{i=1}^n{{a^2}^i}}
+         \dfrac{\sum_{i=1}^n{a^i}}{\sum_{i=1}^n{{a^2}^i}} = \dfrac{\sum\limits_{i=1}^n{a^i}}{\sum\limits_{i=1}^n{{a^2}^i}}
      \end{gather}
      ```
      
