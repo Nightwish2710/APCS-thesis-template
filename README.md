@@ -79,7 +79,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   
 * **URL font:**
 
-  So I change the URL font to Times New Roman using this code line : ``\urlstyle{rm}``. So if you want to have URL font to be default (i.e., Consolas font) then you can remove this line.
+  We change the URL font to Times New Roman using this code line : ``\urlstyle{rm}``. So if you want to have URL font to be default (i.e., Consolas font) then you can remove it.
   
 * **Center images that have width bigger than margin:** <br>
   Credit: https://tex.stackexchange.com/questions/16582/center-figure-that-is-wider-than-textwidth
