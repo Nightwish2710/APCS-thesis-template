@@ -205,7 +205,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      \end{gather}
      ```
      
-     <img src="images/mathequation-1.PNG" width="75px">
+     <img src="images/mathequation-1.PNG" width="70px">
  
   4. When writing fraction, you should use ``\dfrac`` instead of ``\frac``. For example:
  
@@ -215,7 +215,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      \end{gather}
      ```
      
-     <img src="images/mathequation-2.PNG" width="75px">
+     <img src="images/mathequation-2.PNG" width="65px">
      
   5. When writing ``\log``, ``\max``, ``\min``, ``\sum``, etc. you should add ``limits`` behind them. For example:
  
@@ -225,7 +225,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      \end{gather}
      ```
      
-     <img src="images/mathequation-3.PNG" width="150px">
+     <img src="images/mathequation-3.PNG" width="160px">
 
 **THE END.** <br>
 *(I only remmeber this many so I will update if I remember something else)*
