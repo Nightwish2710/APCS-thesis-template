@@ -58,7 +58,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      
        1. Create a text box.
        2. Click on the text box, a panel on the righthand-side will appear, then choose the ``Text`` tab and you can see there is a font option.
-       3. Click on the font option, choose ``custom``, choose ``Google Fonts``, then type the correct font name. For example, I want to use TNR, then type Times New Roman in the box. You see the correct font's name in Microsoft Word.
+       3. Click on the font option, choose ``custom``, choose ``Google Fonts``, then type the correct font name. For example, I want to use TNR so I type Times New Roman in the box. You can see the correct font's name in Microsoft Word.
 
 * **Write Nôm script:**
 
