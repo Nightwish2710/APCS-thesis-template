@@ -112,10 +112,11 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   **TIP:** If your caption happens to have citation, you should use this command:
   
   ```latex
-  \caption[<caption-that-will-show-up-in-LOF-or-LOT>]{<caption-that-will-show-up-under-the-tableor-image>}
+  \caption[<caption-that-will-show-up-in-LOF-or-LOT>]{<caption-that-will-show-up-under-the-table-or-image>}
   ```
   
-  So when you cite your image, you cite in the curly bracket section so that the citation won't show up in LOF (list of figure) or LOT (list of table). This way, the citation numbering will start at a more correct position.
+  So when you cite your image, you cite in the curly bracket section so that the citation won't show up in LOF (list of figure) or LOT (list of table). For example:
+  ``\caption[Tesseract top-level.]{Tesseract top-level. \cite{raysmithorigin}}``.
   
 * **Some useful parameters when include images:**
 
