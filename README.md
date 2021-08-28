@@ -197,7 +197,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      
      The symbole ``&`` is an idicator of where to align, ``\\`` splits the equation, and ``[-0.25cm]`` is to reduce the line space in that particular equation line.
      
-  3. In this thesis, we use ``amsmath``, ``amsfonts``, and ``amssymb`` package but the overall thesis will be written in Times New Roman. So when you use ``\text``, ``\textit`` or ``\textbf``  command in an equation, it will be rendered in TNR font. So if you want to bold your equation in ``amsfonts`` then you must use ``\boldsymbol`` command instead. Try to render this:
+  3. In this thesis, we use ``amsmath``, ``amsfonts``, and ``amssymb`` package but the overall thesis will be written in Times New Roman. So when you use ``\text``, ``\textit`` or ``\textbf``  command in an equation, it will be rendered in TNR font. So if you want to bold your equation in ``amsfonts`` then you must use ``\boldsymbol`` command instead. for example:
 
      ```latex
      \begin{gather}
