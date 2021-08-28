@@ -217,7 +217,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      
      <img src="images/mathequation-2.PNG" width="65px">
      
-  5. When writing ``\log``, ``\max``, ``\min``, ``\sum``, etc. you should add ``limits`` behind them. For example:
+  5. When writing ``\log``, ``\max``, ``\min``, ``\sum``, etc. you should add ``\limits`` behind them. For example:
  
      ```latex
      \begin{gather}
