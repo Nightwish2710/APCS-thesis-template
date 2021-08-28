@@ -50,7 +50,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 
 * **Some of my personal opinions regarding image that I think would make your paper look better:**
 
-  1. One of our TA (teaching assistance) in a CS course gave both of us very harsh comments about our presentation (although we both have high demand in presentation, his is even higher, lol), and we really appriciate them. He said that you should have texts in your image written in the same font as your main text. So for us, when we write paper to submit to a conference, the font is usually Georgia, so have the text to be in Georgia. For this thesis, we have to write in Times New Roman, so have the text to be in TNR.
+  1. One of our TA (teaching assistance) in a CS course gave both of us very harsh comments about our paper presentation (although we both have high standard in presentation, his is even higher, lol), and we really appriciate them. He said that you should have texts in your image written in the same font as your main text. So for us, when we write paper to submit to a conference, the font is usually Georgia, so have the text to be in Georgia. For this thesis, we have to write in Times New Roman, so have the text to be in TNR.
 
   2. When using images from other papers, if you can redraw them, REDRAW THEM (then cite them). You can use a free application called DrawIO (https://app.diagrams.net/) that in my opinion is very useful (although you need to work with it a little bit to get use to it). After finish drawing your image, you should export in either PNG (**CHANGE THE *Zoom* PARAMETER TO *300%***) or PDF. These 2 types can be imported into Overleaf.
 
