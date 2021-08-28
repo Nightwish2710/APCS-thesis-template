@@ -101,6 +101,22 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   
   **NOTE: If you search for this command then you will see that people say that you need ``subfig`` package but we actually don't import the package and can still use the command. One note that when we import ``subfig`` package, our code cannot render for some unknown reasons.**
   
+* **Caption under an image or a table:**
+
+  This is the code that I use to follow thesis template guideline so you don't have to modify anything else.
+  
+  ```latex
+  \usepackage[labelsep=period, justification=centering, labelfont=bf, textfont=bf]{caption}
+  ```
+  
+  **TIP:** If your caption happens to have citation, you should use this command:
+  
+  ```latex
+  \caption[<caption-that-will-show-up-in-LOF-or-LOT>]{<caption-that-will-show-up-under-the-tableor-image>}
+  ```
+  
+  So when you cite your image, you cite in the curly bracket section so that the citation won't show up in LOF (list of figure) or LOT (list of table). This way, the citation numbering will start at a more correct position.
+  
 * **Some useful parameters when include images:**
 
   1. ``trim = {<left> <lower> <right> <upper>}``: to trim border around image.
