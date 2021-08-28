@@ -23,7 +23,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 ``APCS-thesis-template.pdf`` is only a preview for you to know how the template will render.
 
 ```diff
-**IMPORTANT: THIS TEMPLATE NEED TO BE RENDERED USING XeLaTeX.**
+@@ IMPORTANT: THIS TEMPLATE NEED TO BE RENDERED USING XeLaTeX. @@
 ```
 ============================================================================ <br>
 
