@@ -52,7 +52,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 
   2. When using images from other papers, if you can redraw them, REDRAW THEM (then cite them). You can use a free application called DrawIO (https://app.diagrams.net/) that in my opinion is very useful (although you need to work with it a little bit to get use to it). After finish drawing your image, you should export in either PNG (**CHANGE THE *Zoom* PARAMETER TO *300%***) or PDF. These 2 types can be imported into Overleaf.
 
-     This application also allow you to write math (which will be rendered in amsfonts). To do this, you turn on: **Extras > Mathematical Typesetting** (you need to do this for pages that have math equations). If you write small symbol then you only need to encapsulate it between 2 `` ` ``; but if you want to write big equations then encapsulate it between 2 ``$$``.
+     This application also allow you to write math (which will be rendered in amsfonts). To do this, you turn on: **Extras > Mathematical Typesetting** (you need to do this for pages that have math equations). If you write short symbols then you only need to encapsulate it between `` ` ``; but if you want to write big equations then encapsulate it between ``$$``.
 
 * **Write Nôm script:**
 
