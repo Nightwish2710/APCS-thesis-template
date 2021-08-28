@@ -22,7 +22,9 @@ Hopefully, you will find this template somewhat suitable to your need because we
 You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cover.drawio`` in ``download-this`` folder. <br>
 ``APCS-thesis-template.pdf`` is only a preview for you to know how the template will render.
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=**IMPORTANT: THIS TEMPLATE NEED TO BE RENDERED USING XeLaTeX.** <br>
+```diff
+**IMPORTANT: THIS TEMPLATE NEED TO BE RENDERED USING XeLaTeX.**
+```
 ============================================================================ <br>
 
 **SOME INSTRUCTIONS:**
