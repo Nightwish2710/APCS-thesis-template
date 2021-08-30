@@ -39,7 +39,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   ```
 
 - ``figures``, ``fonts`` and ``ref`` are as name suggest.
-- ``configurations.tex`` is the file that we put most of my packages and commands. We separate packages and commands according to (self-defined) categories like **pape setup*, **font setup**, etc. so that we can track thing easier but you can write them anywhere. What floats your boat.
+- ``configurations.tex`` is the file that we put most of my packages and commands. We separate packages and commands according to (self-defined) categories like **pape setup**, **font setup**, etc. so that we can track thing easier but you can write them anywhere. What floats your boat.
 - ``thesis.tex`` is the main .tex file.
 
 - **TIP:** We give you the ``chapters`` folder to store individual chapter. However, we do recommend you dump everything in ``thesis.tex`` or writing all chapters in another .tex file then import in ``thesis.tex``. That way, the "File outline" panel to your left hand will render your entire thesis outline.
