@@ -90,7 +90,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
   
 * **Include images and table sideway:**
 
-  If you want your image turn 90 degree while its caption still remain horizontal then you just need to use the ``angle`` parameter: <br>
+  If you want your image turn 90 degree while its caption still remain horizontal then you just need to use the ``angle`` parameter:
   ``\includegraphics[..., angle=90]{<image-path>}``
   
   But if you want your caption to turn along with your image then encapsulate your image in ``sidewaysfigure`` environment like so
