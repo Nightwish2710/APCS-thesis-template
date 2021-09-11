@@ -187,7 +187,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 
 * **Some useful tips when writing equations:**
 
-  1. Encapsulate your equation in ``gather`` environment to have your equation asigned a number. However, we don't know why when using this, there are so much space before and after the equation; so to reduce you just use ``\vspace`` command.
+  1. Encapsulate your equation in ``gather`` environment to have your equation assigned a number. However, we don't know why when using this, there are so much space before and after the equation; so to reduce you just use ``\vspace`` command.
   
      ```latex
      %% remember that this <space> need to be negative to reduce the space
@@ -244,4 +244,4 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
      <img src="images/mathequation-3.PNG" width="160px">
 
 **THE END.** <br>
-*(I only remmeber this many so I will update if I remember something else)*
+*(We only remmeber this many so we will update if we recall something else)*
