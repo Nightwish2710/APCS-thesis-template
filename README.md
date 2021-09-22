@@ -26,7 +26,7 @@ You will only need to download ``APCS-thesis-template.zip`` and ``thesis-cd-cove
 @@ IMPORTANT: THIS TEMPLATE NEEDS TO BE RENDERED USING XeLaTeX. @@
 ```
 
-The reason is that we use multiple fonts in this project. If do not want to use multiple fonts then you have to modify the template a little bit by removing all font commands and usages. All the chapters, sections, subsections, and subsubsections use Tahoma font, so remove them as well (simple search and replace).
+The reason is that we use multiple fonts in this project. If you do not want to use multiple fonts then you have to modify the template a little bit by removing all font commands and usages. All the chapters, sections, subsections, and subsubsections use Tahoma font, so remove them as well (with simple search and replace).
 ============================================================================ <br>
 
 **SOME INSTRUCTIONS:**
