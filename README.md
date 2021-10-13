@@ -149,7 +149,7 @@ The reason is that we use multiple fonts in this project. If you do not want to 
 
 * **Some useful tips when writing tables:**
 
-  1. ``thead`` command: this command is very useful if you want to write multiple lines in a table cell or you want a cell to have different alignment. For example:
+  1. ``thead`` command (you need to include package ``makecell``): this command is very useful if you want to write multiple lines in a table cell or you want a cell to have different alignment. For example:
   
      ```latex
      \begin{table}[!h]
